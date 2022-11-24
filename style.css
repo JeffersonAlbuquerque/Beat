@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /*"obrigatoriamente" deixar espaçamentos zerados*/
+}
+header{
+    background-color: #129799;
+    height: 44vh; /*tamanho da "caixa" da header*/
+
+}
+nav{
+    display: flex; /*deixar caixa flexivel*/
+    justify-content: center; /*deixar bem no centro da tela no eixo (HORIZONTAL)*/
+    align-items: center; /* alinha os itens dentro de um container flex*/
+    /*border: purple solid;*/
+}
+ul{
+    display: flex; /*deixar alinhado um do lado do outro relacionado ao display flex da (CAIXA PAI)*/
+    justify-content: space-around; /*espaçamento igual entre os elementos*/
+    width: 30vw; /*tamanho da caixa da ul*/
+    font-size: 25px; /*tamanho do texto*/
+    color: white;
+    /*border: purple solid;*/
+}
+.paragraph1{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    justify-content: center; /*alinhar no eixo (VERTICAL)*/
+}
+main{
+    background-color: #FFA185;
+    height: 60vw;
+}
+.text1{ /*section*/
+    display: flex;
+    /*border: purple solid;*/
+    flex-wrap: wrap;
+    align-items: center;
+    height: 25vh;
+    width: 80vw;
+    font-size: 30px;
+}
+.title{
+    display: flex;
+    justify-content: flex-end;
+    width: 20vw;
+    /*border: purple solid;*/
+    color: white;
+}
+.conteudo{
+    display: flex;
+    justify-content: flex-end;
+    width: 70vw;
+    padding-left: 100px;
+    font-size: 30px;
+    /*border: purple solid;*/
+    color: white;
+}
+.secondSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 90vh;
+    
+}
+.imagesSection2{
+    width: 35vw;
+    height: 40vh;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #129799;
+    height: 10vw;
+}
+.navFooter{
+    display: flex; /*deixar caixa flexivel*/
+    justify-content: end; /*deixar bem no centro da tela no eixo (HORIZONTAL)*/
+    align-items: center; /* alinha os itens dentro de um container flex*/
+    /*border: purple solid;*/
+}
+.ulFooter{
+    display: flex; /*deixar alinhado um do lado do outro relacionado ao display flex da (CAIXA PAI)*/
+    justify-content: space-around; /*espaçamento igual entre os elementos*/
+
+    width: 30vw; /*tamanho da caixa da ul*/
+    font-size: 25px; /*tamanho do texto*/
+    color: white;
+    /*border: purple solid;*/
+}
+.sectionRedesSociais{
+    display: flex;
+    align-items: center;
+    /*border: purple solid;*/
+    height: 10vh;
+}
+.socialMedia{
+    display: flex;
+}
+.social1{
+    width: 50px;
+    height: 50px;
+}
